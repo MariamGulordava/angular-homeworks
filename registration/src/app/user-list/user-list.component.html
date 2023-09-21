@@ -1,0 +1,24 @@
+<div class="user-list">
+    <h2>User List</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Email</th>
+          <th>Nickname</th>
+          <th>Phone Number</th>
+          <th>Website</th>
+          <!-- Add more headers for other fields -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{ user.Email }}</td>
+          <td>{{ user.Nickname }}</td>
+          <td>{{ user.Phone }}</td>
+          <td>{{ user.Website }}</td>
+          <!-- Add more columns for other fields -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
